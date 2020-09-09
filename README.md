@@ -1,5 +1,5 @@
 # Translation-from-to-Arabic-and-English
-This repo contains my work to train and test [**BERT-fused model**](https://github.com/bert-nmt/bert-nmt) in Arabic-English language pairs. For more info about the models, please check 
+This repo contains my work to train and test [**BERT-fused model**](https://github.com/bert-nmt/bert-nmt) in Arabic-English language pairs.
 
 ## About BERT-fused model
 This model is introduced in [Incorporating BERT into NMT](https://arxiv.org/abs/2002.06823) paper. This paper was published in ICLR conference 2020.
@@ -24,5 +24,5 @@ In order to **use these models**, you should:
 3. Update pathes to files of training and generation in corresponding **.sh** files.
 
 # TODO
-We will add more dtails day by day to this README. If you are in a hurry, contact me at [e-mail](mohamed.fayed.425@gmail.com).
+We will add more details day by day to this README. If you are in a hurry, contact me at [e-mail](mailto:mohamed.fayed.425@gmail.com).
 
