@@ -23,6 +23,17 @@ In order to **use these models**, you should:
 
 3. Update pathes to files of training and generation in corresponding **.sh** files.
 
+4. Check that the configurations of the model are suitable for you.
+
+# Specifications of the machine
+Since we need GPUs and they are not easily accessible, I need to illustrate specifications of the machine used in my project. It is built on Google Cloud Platform (GCP):
+* 8 VCPUs
+* 52GB RAM
+* 4 Nvidia Tesla T4 GPUs
+* 400GB storage (Boot storage is enough)
+
+
+
 # TODO
 We will add more details day by day to this README. If you are in a hurry, contact me at [e-mail](mailto:mohamed.fayed.425@gmail.com).
 
