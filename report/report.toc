@@ -1,0 +1,28 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Neural Machine Translation (NMT)}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Background}{3}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Bidirectional Encoder Representations from Transformers (BERT)}{4}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Background}{4}{subsection.2.2.1}% 
+\contentsline {subsubsection}{Unsupervised Feature-Based Approaches}{4}{section*.2}% 
+\contentsline {subsubsection}{Unsupervised Fine-Tuning Approaches}{5}{section*.3}% 
+\contentsline {subsubsection}{Transfer Learning From Supervised Data}{5}{section*.4}% 
+\contentsline {subsection}{\numberline {2.2.2}BERT Implementation}{7}{subsection.2.2.2}% 
+\contentsline {subsubsection}{Pre-Training BERT}{7}{section*.5}% 
+\contentsline {subsubsection}{Fine-Tuning BERT}{9}{section*.6}% 
+\contentsline {section}{\numberline {2.3}Transformers}{10}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Background}{10}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Model Architecture}{10}{subsection.2.3.2}% 
+\contentsline {subsubsection}{Encoder And Decoder Stacks}{11}{section*.7}% 
+\contentsline {subsubsection}{Attention}{11}{section*.8}% 
+\contentsline {subsubsection}{Position-Wise Feed-Forward Networks}{14}{section*.9}% 
+\contentsline {subsubsection}{Embeddings And Softmax}{15}{section*.10}% 
+\contentsline {subsubsection}{Positional Encoding}{15}{section*.11}% 
+\contentsline {section}{\numberline {2.4}BERT-fused Model}{15}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Algorithm}{16}{subsection.2.4.1}% 
+\contentsline {subsubsection}{The Model}{16}{section*.12}% 
+\contentsline {subsubsection}{DROP-NET TRICK}{17}{section*.13}% 
+\contentsline {subsubsection}{Discussion}{18}{section*.14}% 
+\contentsline {chapter}{\numberline {3}Our Model}{20}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}About The Data}{20}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Specifications Of Model And Machine}{20}{section.3.2}% 

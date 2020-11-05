@@ -1,0 +1,8 @@
+Using BERT-NMT in Arabic-English Machine translation and English-Arabic.
+In this part of the project, we use the bert model from "Incorporating BERT in NMT" paper which was published in ICLR 2020 conference. The key idea is to use bert in different functionalities including using it as embedding for transformer model and another time as an encoder and use transformer decoder.
+Our machine specs : 4*T4 GPU (4*16 GB), 52 GB RAM with 8 cores CPU.
+In order to increase training speed, we used floating point 16 bit. (--fp16).
+Insufficient resources lead us to preprocess a small size data. We have used UNPC data from opus.nlpl website and selected the first 262727  sentence pairs in our training, 65681 validation and 82103 testing. This seams due to loading of preprocessing output files entirely in the GPU.
+When we tried to run the model of BERT-base (12 layers-110M parameters) followed by transformer (Vasoani 6 layers encoder and 6 layer decoder), we could not train it on our Machine. So, we decided to use Bert as embedding and encoder followed by 6 layers of decoder.
+Our Arabic-English model uses Bert-base-multilingual-uncased bert model. We have succeeded in training Arabic-English model. The stopping conditions were max number of updates = 150000 and minimum learning rate is 1e-9 in 13 epochs.
+The English-Arabic model uses bert-base-cased as it is better in Roman languages. The model has finished training. I can't sign in to the instance now to know where it stopped.
