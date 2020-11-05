@@ -12,6 +12,10 @@ To learn more about BERT, transformer and BERT-fused, please check the papers **
 
 3. [Incorporating BERT into NMT](https://arxiv.org/abs/2002.06823)
 
+You may also check [my report](https://drive.google.com/open?id=1kzgvYoFWDgLwprDhZY1hNolhR1uPhIHf). It includes details about these models and my model description. In other words, this README and details about the models in an organized manner.
+
+Note: my report has some issues in linking to images. I'll remove this note after fixing them.
+
 # Installation
 In order to **use these models**, you should:
 
